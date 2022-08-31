@@ -22,7 +22,6 @@ switch (auswahl)
 
    case 2:        Console.Write("Gib die Zahl in Celsius an:");        double celsius1 = Convert.ToDouble(Console.ReadLine());        double fahrenheit = ((celsius1 * 9 / 5) + 32);        Console.WriteLine("{0} C° sind {1}° Fahrenheit", celsius1, fahrenheit);        break;    
  case 3:        Console.Write("Gib die Zahl in Kelvin an:");        double klevin1 = Convert.ToDouble(Console.ReadLine());        double celsius2 = (klevin1 - 273.15);        Console.WriteLine("{0} Klevin sind {1} C°", klevin1, celsius2);        break;    
- case 4:        Console.Write("Gib die Zahl in Celsius an:");        double kelvin2 = Convert.ToDouble(Console.ReadLine());        double fahrenheit1 = ((kelvin2 - 273.15) * 9 / 5 + 32);        Console.WriteLine("{0} kelvin sind {1}° Fahrenheit", kelvin2, fahrenheit1);     
- break;    
+ case 4:        Console.Write("Gib die Zahl in Celsius an:");        double kelvin2 = Convert.ToDouble(Console.ReadLine());        double fahrenheit1 = ((kelvin2 - 273.15) * 9 / 5 + 32);        Console.WriteLine("{0} kelvin sind {1}° Fahrenheit", kelvin2, fahrenheit1);     break;    
  default:        Console.WriteLine("Da ist etwas schief gelaufen:/");        break;
 }
